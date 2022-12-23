@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="lottieBackground" format="reference" />
+    <attr name="dayItemNotSelectedBackground" format="reference" />
+    <attr name="dayItemSelectedBackground" format="reference" />
+    <attr name="coreFillBackground" format="reference" />
+    <attr name="iconFillColor" format="reference"/>
+</resources>

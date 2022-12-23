@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="WeatherAppRoundedCornersDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">?attr/coreFillBackground</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/WeatherAppBaseBottomSheet</item>
+    </style>
+
+    <style name="WeatherAppBaseBottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/weather_app_drawable_rounded_corners_transparent
+        </item>
+    </style>
+
+    <style name="WeatherRoundedCornersDialog" parent="@style/Theme.MaterialComponents.Dialog">
+        <item name="dialogCornerRadius">16dp</item>
+    </style>
+</resources>

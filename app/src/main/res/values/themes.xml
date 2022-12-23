@@ -1,0 +1,18 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.WhatsTheWeatherApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/weather_app_blue_91DBE2_500</item>
+        <item name="colorPrimaryVariant">@color/weather_app_blue_7ED2DA_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/black</item>
+        <item name="lottieBackground">@color/white</item>
+        <item name="dayItemNotSelectedBackground">@color/white</item>
+        <item name="dayItemSelectedBackground">?attr/colorPrimary</item>
+        <item name="coreFillBackground">@color/white</item>
+        <item name="iconFillColor">@color/black</item>
+    </style>
+</resources>

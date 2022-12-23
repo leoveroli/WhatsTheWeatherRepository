@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2135" />
+        <entry key="app/src/main/res/drawable/weather_app_day_item_not_selected_background.xml" value="0.2135" />
+        <entry key="app/src/main/res/drawable/weather_app_day_item_selected_background.xml" value="0.2135" />
+        <entry key="app/src/main/res/drawable/weather_app_details_icon.xml" value="0.2135" />
+        <entry key="app/src/main/res/drawable/weather_app_divider_gray.xml" value="0.2075" />
+        <entry key="app/src/main/res/drawable/weather_app_divider_gray_CCCCCC.xml" value="0.2075" />
+        <entry key="app/src/main/res/drawable/weather_app_divider_gray_cccccc.xml" value="0.2075" />
+        <entry key="app/src/main/res/drawable/weather_app_drawable_rounded_corners_transparent.xml" value="0.2135" />
+        <entry key="app/src/main/res/drawable/weather_app_drawable_white_rectangle_top_rounded_corners.xml" value="0.2135" />
+        <entry key="app/src/main/res/drawable/weather_app_error_icon.xml" value="0.2135" />
+        <entry key="app/src/main/res/drawable/weather_app_ic_delete.xml" value="0.2135" />
+        <entry key="app/src/main/res/drawable/weather_app_icon_close.xml" value="0.2135" />
+        <entry key="app/src/main/res/drawable/weather_app_icon_search.xml" value="0.2135" />
+        <entry key="app/src/main/res/drawable/weather_app_rectangle_rounded_corners.xml" value="0.2075" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.3385416666666667" />
+        <entry key="app/src/main/res/layout/city_weather_forecast_fragment_layout.xml" value="0.3078125" />
+        <entry key="app/src/main/res/layout/search_city_fragment_layout.xml" value="0.3078125" />
+        <entry key="app/src/main/res/layout/weather_app_alert_dialog_fragment.xml" value="0.3385416666666667" />
+        <entry key="app/src/main/res/layout/weather_app_city_forecast_fragment_layout.xml" value="0.3385416666666667" />
+        <entry key="app/src/main/res/layout/weather_app_city_info_layout.xml" value="0.3375" />
+        <entry key="app/src/main/res/layout/weather_app_city_info_loading_layout.xml" value="0.3385416666666667" />
+        <entry key="app/src/main/res/layout/weather_app_city_info_shimmer_layout.xml" value="0.3385416666666667" />
+        <entry key="app/src/main/res/layout/weather_app_day_item.xml" value="0.3375" />
+        <entry key="app/src/main/res/layout/weather_app_empty_item.xml" value="0.3078125" />
+        <entry key="app/src/main/res/layout/weather_app_forecast_detail_fragment_layout.xml" value="0.3375" />
+        <entry key="app/src/main/res/layout/weather_app_hour_forecast_item.xml" value="0.3375" />
+        <entry key="app/src/main/res/layout/weather_app_label_item.xml" value="0.3078125" />
+        <entry key="app/src/main/res/layout/weather_app_search_city_lits_fragment_layout.xml" value="0.3385416666666667" />
+        <entry key="app/src/main/res/layout/weather_app_shimmer_label_item.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/layout/weather_landing_activity_layout.xml" value="0.30885416666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/weather_forecast_nav_graph">
+
+    <fragment
+        android:id="@+id/cityWeatherForecastFragment"
+        android:name="com.whatstheweatherapp.presentation.landing.CityWeatherForecastFragment"
+        android:label="CityWeatherForecastFragment"
+        tools:layout="@layout/weather_app_city_forecast_fragment_layout">
+        <action
+            android:id="@+id/openSearch"
+            app:destination="@id/searchCityFragment"
+            app:enterAnim="@anim/weather_app_fade_in"
+            app:exitAnim="@anim/weather_app_fade_out"
+            app:popEnterAnim="@anim/weather_app_fade_in"
+            app:popExitAnim="@anim/weather_app_fade_out" />
+        <argument
+            android:name="latitude"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="longitude"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="selectedCity"
+            app:argType="com.whatstheweatherapp.domain.models.City"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="fromSearch"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchCityFragment"
+        android:name="com.whatstheweatherapp.presentation.search.SearchCityFragment"
+        android:label="SearchCityFragment"
+        tools:layout="@layout/weather_app_search_city_lits_fragment_layout">
+        <action
+            android:id="@+id/openCityWeatherForecast"
+            app:destination="@id/cityWeatherForecastFragment"
+            app:enterAnim="@anim/weather_app_slide_in_from_right"
+            app:exitAnim="@anim/weather_app_slide_out_to_left"
+            app:popEnterAnim="@anim/weather_app_slide_in_from_left"
+            app:popExitAnim="@anim/weather_app_slide_out_to_right" />
+    </fragment>
+</navigation>

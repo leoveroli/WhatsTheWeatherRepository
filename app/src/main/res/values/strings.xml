@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">What\'s The Weather</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="weather_app_search_city">Cerca una città</string>
+    <string name="weather_app_cancel">Annulla</string>
+    <string name="weather_app_temperature_short">Temp</string>
+    <string name="weather_app_absent">Assenti</string>
+    <string name="weather_app_min_temperature_long">Temperatura minima</string>
+    <string name="weather_app_max_temperature_long">Temperatura massima</string>
+    <string name="weather_app_perceived_temperature">Temperatura percepita</string>
+    <string name="weather_app_min_temperature_short">Min: </string>
+    <string name="weather_app_max_temperature_short">Max: </string>
+    <string name="weather_app_precipitation_percentage">Probabilità di precipitazioni</string>
+    <string name="weather_app_wind_speed">Velocità del vento</string>
+    <string name="weather_app_cloudiness">Nuvolosità</string>
+    <string name="weather_app_humidity_percentage">Tasso di umidità</string>
+    <string name="weather_app_visibility">Visibilità</string>
+    <string name="weather_app_attention">Attenzione</string>
+    <string name="weather_app_network_error_message">C\'è stato un problema temporaneo in accesso alla sezione. Per maggior sicurezza, controlla la tua connessione internet e riprova</string>
+    <string name="weather_app_technical_error">Non è stato possibile accedere alla sezione richiesta</string>
+</resources>
